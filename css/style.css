@@ -80,6 +80,28 @@ form button{
     font-size: 18px;
     margin-top: -22%;
 }
+@media screen and (max-width:1080px){
+    form{
+        width: calc(100% -220px);
+    }
+    form input{
+        width: calc(100% -38px);
+    }
+}
+
+@media screen and (max-width:580px){
+    form{
+        width:calc(100% - 30px);
+    }
+    .search ul{
+        display: block;
+    }
+}
+@media screen and(max-width:480px){
+    .right ul li a{
+        display: none;
+    }
+  }
 @media screen and (max-width:1080px) {
     form {
         width: cal(100% - 30px);
@@ -89,8 +111,7 @@ form button{
     }
     form button{
         width: calc(100% - 400px);
-    }
-    
+    }  
 }
 @media screen and (max-width:560px) {
     form{
@@ -99,13 +120,9 @@ form button{
     .search ul{
         display:block;
     }
-    
 }
 @media screen and (max-width:480px) {
-
     .right ul li a{
         display:none;
-
     }
-    
 }
